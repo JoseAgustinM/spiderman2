@@ -1,0 +1,45 @@
+body{
+    font-size: 12px;
+}
+#contenedor1{
+    display: flex;
+    height: auto;
+    border: solid white;
+    width: 100%;
+    flex-direction: row;
+}
+#elemento1{
+    margin:5% 2% 5% 2%;
+}
+#contenedor2{
+    display: flex;
+}
+#grupo1{
+background-color: rgb(255, 175, 175);
+margin: 0 5px 0 5px;
+}
+#grupo2{
+background-color: rgb(180, 180, 255);
+}
+#elementoCuadro1{
+border: solid white;
+margin: 5% 2% 5% 2%;
+}
+#elementoCuadro2{
+    border: solid white;
+    margin: 5% 2% 5% 2%;
+    }
+#subgrupo1{
+    display: flex;
+    border: solid;
+}
+#cabezera{
+text-align: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+#auto{
+    width: 100%;
+    height: 200px;
+}
